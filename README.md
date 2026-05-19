@@ -1,16 +1,68 @@
-# React + Vite
+# Robotic Computational Fabrication Manual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An open-source research platform focused on computational design, Grasshopper, material systems, and industrial robotic fabrication.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This repository documents experimental workflows, fabrication systems, and research methods developed through architectural robotics and computational fabrication research.
 
-## React Compiler
+The platform functions simultaneously as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- A teaching manual
+- A fabrication workflow archive
+- A research documentation system
+- A computational design resource
+- A public-facing research infrastructure platform
 
-## Expanding the ESLint configuration
+The project emphasizes reproducible robotic workflows, material-aware fabrication, and open documentation of successes, failures, and iterative development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Research Areas
+
+### - Robotic Clay Deposition Printing
+
+### - Thermoplastic FGD + Blowforming
+
+### - Irregular Timber Milling
+
+---
+
+## Objectives
+
+This platform is intended to:
+
+- Support architectural robotics education
+- Publish open fabrication workflows
+- Document material experimentation
+- Provide reproducible computational systems
+- Support future research proposals and publications
+- Build a long-term archive of robotic fabrication research
+
+---
+
+## Technology Stack
+
+### Software
+- Rhino3D
+- Grasshopper
+- KUKA|prc
+- GitHub Pages
+
+### Hardware
+- Various industrial robots
+- Robotic extrusion systems
+- Subtractive & Additive end effectors
+
+---
+
+## Repository Structure
+
+```text
+src/
+├── systems/
+├── workflows/
+├── research/
+├── teaching/
+├── failures/
+└── case-studies/
